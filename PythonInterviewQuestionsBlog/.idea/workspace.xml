@@ -11,11 +11,29 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="questions.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/templates/questions.html">
+      <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/InterviewQuestionsBlog/views.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="7" selection-start-line="7" selection-end-line="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="urls.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/InterviewQuestionsBlog/urls.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="85">
-              <caret line="5" column="8" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="8" />
+              <caret line="6" column="1" lean-forward="true" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="urls.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/PythonInterviewQuestionsBlog/urls.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="301">
+              <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
             </state>
           </provider>
         </entry>
@@ -40,12 +58,12 @@
       <list>
         <option value="$PROJECT_DIR$/PythonInterviewQuestionsBlog/settings.py" />
         <option value="$PROJECT_DIR$/InterviewQuestionsBlog/views.py" />
-        <option value="$PROJECT_DIR$/InterviewQuestionsBlog/urls.py" />
-        <option value="$PROJECT_DIR$/PythonInterviewQuestionsBlog/urls.py" />
         <option value="$PROJECT_DIR$/static/CSS/question.css" />
         <option value="$PROJECT_DIR$/static/CSS/main.css" />
         <option value="$PROJECT_DIR$/templates/home.html" />
         <option value="$PROJECT_DIR$/templates/questions.html" />
+        <option value="$PROJECT_DIR$/InterviewQuestionsBlog/urls.py" />
+        <option value="$PROJECT_DIR$/PythonInterviewQuestionsBlog/urls.py" />
       </list>
     </option>
   </component>
@@ -70,7 +88,12 @@
             <path>
               <item name="PythonInterviewQuestionsBlog" type="b2602c69:ProjectViewProjectNode" />
               <item name="PythonInterviewQuestionsBlog" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="InterviewQuestionsBlog" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PythonInterviewQuestionsBlog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PythonInterviewQuestionsBlog" type="462c0819:PsiDirectoryNode" />
+              <item name="PythonInterviewQuestionsBlog" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -167,32 +190,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/InterviewQuestionsBlog/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/static/CSS/question.css" />
     <entry file="file://$PROJECT_DIR$/PythonInterviewQuestionsBlog/settings.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="731">
           <caret line="43" column="14" lean-forward="true" selection-start-line="43" selection-start-column="14" selection-end-line="43" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/InterviewQuestionsBlog/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="4" column="75" selection-start-line="4" selection-start-column="66" selection-end-line="4" selection-end-column="75" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PythonInterviewQuestionsBlog/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="267">
-          <caret line="20" column="92" selection-start-line="20" selection-start-column="83" selection-end-line="20" selection-end-column="92" />
         </state>
       </provider>
     </entry>
@@ -218,6 +220,27 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="5" column="8" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/InterviewQuestionsBlog/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/InterviewQuestionsBlog/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="6" column="1" lean-forward="true" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PythonInterviewQuestionsBlog/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="301">
+          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
         </state>
       </provider>
     </entry>

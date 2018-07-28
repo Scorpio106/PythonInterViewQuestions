@@ -18,5 +18,5 @@ from django.conf.urls import url, include
 
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
-    url(r'^InterviewQuestions/', include('InterviewQuestionsBlog.urls', namespace='InterView')),
+    url(r'^$/', include('InterviewQuestionsBlog.urls', namespace='InterView')),
 ]
