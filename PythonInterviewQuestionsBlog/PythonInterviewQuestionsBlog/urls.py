@@ -15,8 +15,9 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.conf.urls import url, include
+from InterviewQuestionsBlog import views
 
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
-    url(r'^$/', include('InterviewQuestionsBlog.urls', namespace='InterView')),
+    url(r'^$', views.PythonInterViewQuestions.as_view(), name='questions'),
 ]
