@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+{% load staticfiles %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>School With PythonProgaming</title>
+    <link rel="stylesheet" href="{% static 'CSS/main.css'%}">
+    <link rel="shortcut icon" href="{% static 'images/favi.png'%}" type="image/png">
+</head>
+<body>
+<body>
+    <div class="fixed-header">
+        <marquee direction="right" onmouseover="this.stop();" onmouseout="this.start();"><a href="{% url 'InterView:questions' %}"> <img src="{% static 'images/logo2.png'%}" alt="logo" style="position: center top"> </a></marquee>
+    </div>
+</body>
+<div class="row">
+  <div class="column middle" style="background-color: #00ffff;">
+      <header style="text-align:center; color:green; font-size: 40px;">Python InterView Questions:</header>
+            {% block  content1 %}
+
+            {% endblock %}
+  </div>
+</div>
+</body>
+</html>

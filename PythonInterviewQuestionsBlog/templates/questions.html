@@ -1,0 +1,410 @@
+{% extends 'home.html' %}
+{% block content1 %}
+<h3>1. What is Python?</h3>
+<p class="p1">Python is a widely used general-purpose, high level, interpreted programming language.
+    Created by Guido van Rossum and first released in 1991.</p>
+<h3>2. what is the use of Python?</h3>
+<ul>
+    <li class="l1"> used in Web Development by using Frameworks such as Django,Flask and Bottle.</li>
+    <li class="l1"> Python is widely used in scientific and numeric computing.</li>
+    <li class="l1"> Python is a superb language for teaching programming.</li>
+    <li class="l1"> Python is also used to build Business Applications like ERP and e-commerce systems.</li>
+    <li class="l1"> Used in game Development.</li>
+</ul>
+
+<h3>3. Why Python insted of other Languages?</h3>
+ <ul>
+    <li class="l1">It's compleaty Open Source.</li>
+    <li class="l1">Easy to learn.</li>
+    <li class="l1">Widely available resources.</li>
+    <li class="l1">Presence of Third Party Modules.</li>
+ </ul>
+<h3>4. Is Python is a case-sensitive?</h3>
+<p class="p1"> Yes,Python is a case-sensitive language. This means, A and a are not the same.</p>
+<h3>5. What is Indentation?</h3>
+<p class="p1"> Most of the programming languages like C, C++, Java use braces { } to define a block of code.
+    Python uses indentation to define a block of code.Generally four whitespaces are used for
+    indentation and is preferred over tabs.</p>
+<h3>6. How to write Multi-line comments in Python?</h3>
+<p class="p1">use triple quotes, either ''' or """.</p>
+<p class="p1">Ex:</p>
+<pre>
+    <code>
+        """This is also a perfect example of multi-line comments"""
+    </code>
+</pre>
+<h3>7. What is a variable?</h3>
+<p class="p1">A variable is a named location used to store data in the memory.</p>
+<h3>8. How to Declaring Variables in Python?</h3>
+<p class="p1" >In Python, variables do not need declaration to reserve memory space.
+    The "variable declaration" or "variable initialization" happens automatically
+    when we assign a value to a variable.</p>
+<h3>9. How many datatypes are there in Python?</h3>
+<p class="p1" >There are Seven DataTypes in Python.</p>
+<ul>
+    <li class="l1">1.Python Numbers</li>
+    <li class="l1">2.Python List</li>
+    <li class="l1">3.Python Tuple</li>
+    <li class="l1">4.Python Strings</li>
+    <li class="l1">5.Python Boolian</li>
+    <li class="l1">6.Python Set </li>
+    <li class="l1">7.Python Dictionary</li>
+</ul>
+<h3>10. Difference Between Tuple and List.</h3>
+ <ul>
+     <li class="l1">1.List has mutable nature, tuple has immutable nature.</li>
+     <li class="l1">2.List has more functionality than the tuple.</li>
+     <li class="l1">3.Tuples are faster than List.</li>
+     <li class="l1">4.Lists are surrounded by square brackets [] and Tuples are surrounded by parenthesis ().</li>
+ </ul>
+
+<h3>11. What is IndexValue.</h3>
+<p class="p1" >If we accesses element from a list of elements, using there positions is called IndexValue.
+    IndexValue will start from 0.</p>
+<h3>12. What is negative index in Python?</h3>
+<p class="p1" >Negative index is used in python to index starting from the last element of the list.
+    heare -1 refers to the last index, -2 refers to the second last index and so on.</p>
+<h3>13. What is a Set in Python?</h3>
+<p class="p1" >Set is an unordered collection of unique items. Set is defined by values
+    separated by comma inside braces { }.</p>
+<p class="p1">EX: a = {1,2,2,3,3,3}</p>
+<h3>14. What are Python Dictionary?</h3>
+<p class="p1">Dictionary is an unordered collection of key-value pairs.In Python, dictionaries are defined
+    within braces {} with each item being a pair in the form key:value.</p>
+<p class="p1">EX:d = {1:'value','key':2}</p>
+<h3>15. How to retrive values form Dictionarys?</h3>
+<p class="p1">We use key to retrieve the respective value. But not the other way around.</p>
+<p class="p1">EX:d = {1:'value','key':2}</p>
+<p class="p1">print("d[1] = ", d[1])</p>
+<h3>16. Is Type Casting is posible in Python?</h3>
+<p class="p1">Yes, We can convert between different data types by using different type conversion functions
+    like int(), float(), str() etc.</p>
+<h3>17. Is it possible to convert from Numbers to list or Tuple or Dictionary or Set in python?</h3>
+<p class="p1">No, Because Numbers are not ittarable. when we try to convert from int to list
+    it will rise TypeError: 'int' object is not iterable</p>
+<h3>18. What is the syntax of the print() function.</h3>
+<p class="p1">The actual syntax of the print() function is
+print(*objects, sep=' ', end='\n', file=sys.stdout, flush=False)
+Here, objects is the value(s) to be printed.
+The sep separator is used between the values. It defaults into a space character.
+After all values are printed, end is printed. It defaults into a new line.
+    The file is the object where the values are printed and its default value is sys.stdout (screen).</p>
+<h3>19. What is str.format() in Python?</h3>
+<p class="p1">Sometimes we would like to format our output to make it look attractive.
+    This can be done by using the str.format() method. This method is visible to any string object.</p>
+<h3>20. What is a module?</h3>
+<p class="p1">A module is a file containing Python definitions and statements.
+    Python modules have a filename and end with the extension .py.</p>
+<h3>21. Why we need modules and How to import modules in Python?</h3>
+<p class="p1">When our program grows bigger, it is a good idea to break it into different modules.
+    We use the import keyword to import modules.</p>
+<p class="p1">EX:import sys</p>
+<h3>22. What is a Namespace in Python?</h3>
+<p class="p1">Name is simply a name given to objects. Everything in Python is an object. Name is a way to access our object.
+Namespace is a collection of names.A namespace containing all the built-in names
+is created when we start the Python interpreter and exists as long we don't exit.
+in general words NameSpace is a space where we can define our names i'e objects.
+    there are three different namespaces in Python</p>
+ <ul>
+     <li class="l1" >1. Built-In NameSpace</li>
+     <li class="l1" >2.Global NameSpace </li>
+     <li class="l1" >3.Local NameSpace </li>
+ </ul>
+<h3>23. What is nested If?</h3>
+<p class="p1">If we have If statement that contains another If statement is called nested If.</p>
+<h3>24. What is the use of break and continue in Python?</h3>
+<p class="p1">In Python, break and continue statements can controls the flow of a normal loop.
+The break statement terminates the loop containing it. Control of the program flows
+to the statement immediately after the body of the loop.
+The continue statement is used to skip the rest of the code inside a loop for the current iteration only.
+    Loop does not terminate but continues on with the next iteration.</p>
+<h3>25. What is pass statement in Python?</h3>
+<p class="p1">In Python programming, pass is a null statement. The difference between a comment and pass statement
+in Python is that, while the interpreter ignores a comment entirely, pass is not ignored.
+    However, nothing happens when pass is executed. It results into no operation (NOP).</p>
+<h3>26. What is a function in Python?</h3>
+<p class="p1">In Python, function is a group of related statements that perform a specific task.
+    in Python we use def keyword to defain function.</p>
+<h3>27. What is DocString?</h3>
+<p class="p1">The first string after the function header is called the docstring and is short for
+documentation string. It is used to explain in brief, what a function does.
+This string is available to us as __doc__ attribute of the function.
+    i'e "functionname.__doc__()"</p>
+<h3>28. What is recursion in Python?</h3>
+<p class="p1">Recursion is the process of defining something in terms of itself.
+    i'e a function calls itself is called recursive function.</p>
+<h3>29. What are Advantages and Disadvantages of Recursion?</h3>
+<p class="p1">Advantages of Recursion</p>
+<ul>
+    <li class="l1">1.Recursive functions make the code look clean and elegant.</li>
+    <li class="l1">2.A complex task can be broken down into simpler sub-problems using recursion.</li>
+    <li class="l1"> 3.Sequence generation is easier with recursion than using some nested iteration.</li>
+</ul>
+<p class="p1">Disadvantages of Recursion</p>
+<ul>
+    <li class="l1">1.Sometimes the logic behind recursion is hard to follow through.</li>
+    <li class="l1">2.Recursive calls are expensive (inefficient) as they take up a lot of memory and time.</li>
+    <li class="l1">3.Recursive functions are hard to debug.</li>
+</ul>
+<h3>30. What are lambda/Anonymous functions in Python?</h3>
+<p class="p1">In Python, anonymous function is a function that is defined without a name.
+While normal functions are defined using the def keyword, in Python anonymous functions are
+    defined using the lambda keyword.Hence, anonymous functions are also called lambda functions.</p>
+<p class="p1">Syntax of Lambda Function in python</p>
+<p class="p1">lambda arguments: expression</p>
+<h3>31. What is the use of filter() and map() functions in Python?</h3>
+<p class="p1">The filter() function in Python takes in a function and a list as arguments.
+The function is called with all the items in the list and a new list is returned
+    which contains items for which the function evaluats to True.</p>
+<p class="p1">The map() function in Python takes in a function and a list.
+The function is called with all the items in the list and a new list is returned
+    which contains items returned by that function for each item.</p>
+<h3>32. What are modules in Python?</h3>
+<p class="p1">A file containing Python code, for e.g.: example.py, is called a module.
+We use modules to break down large programs into small manageable and organized files.
+    Furthermore, modules provide reusability of code.</p>
+<h3>33. What is the use of dir() function in python?</h3>
+<p class="p1">We can use the dir() function to find out names that are defined inside a module.</p>
+<h3>34. What is OOP's?</h3>
+<p class="p1">One of the popular approach to solve a programming problem is by creating objects.
+    This is known as Object-Oriented Programming (OOP),this includes.</p>
+<ul>
+    <li class="l1">Object</li>
+    <li class="l1">Class</li>
+    <li class="l1">Inheritance</li>
+    <li class="l1">Data Abstraction</li>
+    <li class="l1">Encapsulation</li>
+    <li class="l1">Polymorphism</li>
+</ul>
+
+<h3>35. What is an Object?</h3>
+<p class="p1">Object is an entity that has state and behavior. It may be anything.
+It may be physical and logical. For example: mouse, keyboard, chair, table, pen etc.
+    in python Objects are instances of classes.</p>
+<h3>36. What is a class?</h3>
+<p class="p1">class is a blue print of an object (or) a template of code,that contais variables and functions.</p>
+<h3>37. What is __init__ method.</h3>
+<p class="p1">It is a class initializer.
+    Whenever an instance of a class(object) is created, its __init__ method is called.</p>
+<h3>38. What are methods?</h3>
+<p class="p1">Methods are functions defined inside the body of a class. They are used to define the behaviors of an object.</p>
+<h3>39. What is Inheritance in python?</h3>
+<p class="p1">Inheritance is a way of creating new class for using details of existing class without modifying
+it. The newly formed class is a derived class (or child class). Similarly,
+    the existing class is a base class (or parent class).</p>
+<h3>40. What is Encapsulation in Python?</h3>
+<p class="p1">Using OOP in Python, we can restrict access to methods and variables.
+This prevent data from direct modification which is called encapsulation.In Python,
+    we denote private attribute using underscore as prefix i.e single “ _ “ or double “ __“.</p>
+<h3>41. What is Polymorphism in Python?</h3>
+<p class="p1">Polymorphism means that different types respond to the same function.
+Polymorphism is a fancy word that just means the same function is defined on objects of different types.
+<h3>42. What are Special Functions in Python?</h3>
+<p class="p1">Class functions that begins with double underscore __ are called special functions in Python.
+<p class="p1">Ex:- __init__(),__str__(),....
+<h3>43. What are iterators in Python?</h3>
+<p class="p1">Iterator is a object which will return data, one element at a time.
+Python iterator object must implement using two special methods,
+    __iter__() and __next__().</p>
+<h3>44. What are generators in Python?</h3>
+<p class="p1">Python generators are a simple way of creating iterators.Simply speaking, a generator is a function
+    that returns an object (iterator) which we can iterate over (one value at a time).</p>
+<h3>45. How to create a generator in Python?</h3>
+<p class="p1">It is as easy as defining a normal function with yield statement instead of a return statement.
+    If a function contains at least one yield statement, it becomes a generator function.</p>
+<h3>46. What is the difference between yield and return statement?</h3>
+<p class="p1">The difference is that, while a return statement terminates a function entirely,
+yield statement pauses the function saving all its states and later continues
+    from there on successive calls.</p>
+<h3>47. Why generators are used in Python?</h3>
+ <ul>
+     <li class="l1">1. Easy to Implement</li>
+     <li class="l1">2. Memory Efficient </li>
+     <li class="l1">3. Pipelining Generators</li>
+ </ul>
+<h3>48. What are Python Decorators?</h3>
+<p class="p1">Decorators are used to add functionality to an existing code.
+    A decorator takes in a function, adds some functionality and returns it.</p>
+<h3>49. What is Property in Python?</h3>
+<p class="p1">In Python, property() is a built-in function that creates and returns a property object.
+The signature of this function is
+ property(fget=None, fset=None, fdel=None, doc=None)
+where, fget is function to get value of the attribute, fset is function to set value of the
+    attribute, fdel is function to delete the attribute and doc is a string (like a comment).</p>
+<h3>50. What is the difference between Shallow Copy and Deep Copy?</h3>
+<p class="p1">A shallow copy creates a new object which stores the reference of the original elements.</p>
+<p class="p1">A deep copy creates a new object and recursively adds the copies of nested objects present in the original elements.</p>
+<p class="p1">We use copy.copy() function to achive shallow copy and copy.deepcopy() function to achive Deep copy present in copy module.</p>
+<h3>51. What is a file?</h3>
+<p class="p1">File is a named location on disk to store related information.
+    It is used to permanently store data in a non-volatile memory (e.g. hard disk).</p>
+<h3>52. What are Python file modes?</h3>
+<p class="p1">Mode	Description</p>
+<p class="p1">'r' 	Open a file for reading. (default)</p>
+<p class="p1">'w' 	Open a file for writing. Creates a new file if it does not exist or truncates the file if it exists.</p>
+<p class="p1">'x' 	Open a file for exclusive creation. If the file already exists, the operation fails.</p>
+<p class="p1">'a' 	Open for appending at the end of the file without truncating it. Creates a new file if it does not exist.</p>
+<p class="p1">'t' 	Open in text mode. (default)</p>
+<p class="p1">'b' 	Open in binary mode.</p>
+<p class="p1">'+' 	Open a file for updating (reading and writing)</p>
+<h3>53. How to create a file in Python?</h3>
+<p class="p1">By using 'x' (or) 'w' mode, with in open() function.
+    Ex:- f = open("filename.txt", "x") or f = open("filename.txt", "w")</p>
+<h3>54. How to open a file in Python?</h3>
+<p class="p1">Python has a built-in function open('filename', 'mode') to open a file.</p>
+<p class="p1">Ex:- f = open('filename.txt', 'w')</p>
+<h3>55. What is Directory in Python?</h3>
+<p class="p1">A directory or folder is a collection of files and sub directories.
+If there are a large number of files to handle in your Python program,
+    you can arrange your code within different directories to make things more manageable.</p>
+<h3>56. What are Exceptions and how to handle Exceptions in Python?</h3>
+<p class="p1">Exceptions are the errors which are occur at runtime.
+We can handle exceptions by using try and except clauses. we need to write
+a code which can raise exception is placed inside the try clause and
+We can specify which exceptions an except clause will catch.
+A try clause can have any number of except clause to handle them differently but
+    only one will be executed in case an exception occurs.</p>
+<h3>57. What is finally?</h3>
+<p class="p1">The try statement in Python can have an optional finally clause.
+    This clause is executed no matter what, and is generally used to release external resources.</p>
+<h3>58. What are the built in exceptions?</h3>
+<p class="p1">Some of the common built-in exceptions in Python programming along with the error that cause then are</p>
+<pre>
+    <code class="l1">
+        Exception 	        Cause of Error
+        AttributeError 		Raised when attribute assignment or reference fails.
+        FloatingPointError 	Raised when a floating point operation fails.
+        GeneratorExit 		Raise when a generator's close() method is called.
+        ImportError 		Raised when the imported module is not found.
+        IndexError 		Raised when index of a sequence is out of range.
+        KeyError 		Raised when a key is not found in a dictionary.
+        KeyboardInterrupt 	Raised when the user hits interrupt key (Ctrl+c or delete).
+        MemoryError 		Raised when an operation runs out of memory.
+        NameError 		Raised when a variable is not found in local or global scope.
+        ReferenceError 		Raised when a weak reference proxy is used to access a garbage collected referent.
+        RuntimeError 		Raised when an error does not fall under any other category.
+        StopIteration 		Raised by next() function to indicate that there is no further item to be returned by iterator.
+        SyntaxError 		Raised by parser when syntax error is encountered.
+    </code>
+</pre>
+<h3>59. How user can define exceptions?</h3>
+<p class="p1">By inherating Exception class as a base class.</p>
+<pre><code class="l1" >
+    Ex:-
+class ValueTooSmallError(Exception):
+   """Raised when the input value is too small"""
+   pass
+
+class ValueTooLargeError(Exception):
+   """Raised when the input value is too large"""
+   pass
+number = 10
+
+while True:
+   try:
+       i_num = int(input("Enter a number: "))
+       if i_num < number:
+           raise ValueTooSmallError
+       elif i_num > number:
+           raise ValueTooLargeError
+       break
+   except ValueTooSmallError:
+       print("This value is too small, try again!")
+       print()
+   except ValueTooLargeError:
+       print("This value is too large, try again!")
+       print()
+
+print("Congratulations! You guessed it correctly.")
+</code>
+</pre>
+<h3>60. What is frozenset in Python?</h3>
+<p class="p1">Frozen set is just an immutable version of a Python set object.
+sets are mutable but forzen sets are immutable. we can create forzen sets by using
+    forzenset() method.</p>
+<p class="p1">The syntax of frozenset() method is:
+    frozenset([iterable])</p>
+<h3>61. What zip() function will do in Python?</h3>
+<p class="p1">The zip() function take iterables (can be zero or more), makes iterator that aggregates elements
+    based on the iterables passed, and returns an iterator of tuples.</p>
+<p class="p1">The syntax of zip() is:
+    zip(*iterables)</p>
+<h3>62. What next() function will do in Python?</h3>
+<p class="p1">The next() function returns the next item from the iterator.</p>
+<p class="p1">The syntax of next() is:</p>
+ <pre>
+     <code class="l1">
+         next(iterator, default)
+            1.iterator - next() retrieves next item from the iterator
+            2.default (optional) - this value is returned if the iterator is exhausted (no items left)
+     </code>
+ </pre>
+<h3>63. What is abs() method in Python?</h3>
+<p class="p1">The abs() method returns the absolute value of the given number.
+    If the number is a complex number, abs() returns its magnitude.</p>
+<h3>64. What divmod() will do in Python?</h3>
+<p class="p1">The divmod() method takes two numbers and returns a pair of numbers (a tuple)
+    consisting of their quotient and remainder.it dos't accept complex numbers.</p>
+<p class="p1">The syntax of divmod() is:
+    divmod(x, y)</p>
+<pre>
+    <code>Ex:-
+        >>print('divmod(8, 3) = ', divmod(8, 3))
+          divmod(8, 3) =  (2, 2)
+    </code>
+</pre>
+
+<h3>65. Difference Between range() and xrange() functions in Python?</h3>
+<p class="p1">range() – This returns a list of numbers created using range() function.</p>
+<p class="p1">xrange() – This function returns the generator object that can be used to display numbers only by looping.</p>
+<h3>66. Difference Between Python 2.x and Python 3.x?</h3>
+<p class="p1">Important differences between Python 2.x and Python 3.x with examples</p>
+   <pre>
+       <code class="l1">
+           Division operator
+           print function
+           Unicode
+           xrange
+           Error Handling
+           _future_ module
+       </code>
+   </pre>
+<h3>67. What enumerate() function will do in Python?</h3>
+<p class="p1">The enumerate() method adds counter to an iterable and returns it (the enumerate object).</p>
+<p class="p1">The syntax of enumerate() is:
+ enumerate(iterable, start=0)</p>
+<pre>
+    <code class="l1">Ex:-
+        grocery = ['bread', 'milk', 'butter']
+
+        enumerateGrocery = enumerate(grocery)
+        print(list(enumerateGrocery))
+
+        enumerateGrocery = enumerate(grocery, 10)
+
+        print(list(enumerateGrocery))
+
+        Output will be:-
+        [(0, 'bread'), (1, 'milk'), (2, 'butter')]
+        [(10, 'bread'), (11, 'milk'), (12, 'butter')]
+    </code>
+</pre>
+<h3>68. What is callable() function in Python?</h3>
+<p class="p1">The callable() method returns True if the object passed appears callable.
+    If not, it returns False.</p>
+<h3>69. What is the usage of the help() and dir() function in Python?</h3>
+<p class="p1" >Help() function: The help() function is used to display the documentation string and also
+    facilitates you to see the help related to modules, keywords, attributes, etc.</p>
+<p class="p1">Dir() function: The dir() function is used to display the defined symbols.</p>
+<h3>70. What are setattr() and getattr() functions in Python?</h3>
+<p class="p1">The setattr() method sets the value of given attribute of an object.</p>
+<p class="p1">The syntax of setattr() method is:
+    setattr(object, name, value)</p>
+<p class="p1">The getattr() method returns the value of the named attribute of an object. If not found,
+    it returns the default value provided to the function.</p>
+<p class="p1">The syntax of getattr() method is:
+    getattr(object, name[, default])</p>
+<p class="p1">is equivalent to:
+    object.name</p>
+
+{% endblock %}
