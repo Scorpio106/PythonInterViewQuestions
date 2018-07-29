@@ -269,24 +269,20 @@ A try clause can have any number of except clause to handle them differently but
     This clause is executed no matter what, and is generally used to release external resources.</p>
 <h3>58. What are the built in exceptions?</h3>
 <p class="p1">Some of the common built-in exceptions in Python programming along with the error that cause then are</p>
-<pre>
-    <code class="l1">
-        Exception 	        Cause of Error
-        AttributeError 		Raised when attribute assignment or reference fails.
-        FloatingPointError 	Raised when a floating point operation fails.
-        GeneratorExit 		Raise when a generator's close() method is called.
-        ImportError 		Raised when the imported module is not found.
-        IndexError 		Raised when index of a sequence is out of range.
-        KeyError 		Raised when a key is not found in a dictionary.
-        KeyboardInterrupt 	Raised when the user hits interrupt key (Ctrl+c or delete).
-        MemoryError 		Raised when an operation runs out of memory.
-        NameError 		Raised when a variable is not found in local or global scope.
-        ReferenceError 		Raised when a weak reference proxy is used to access a garbage collected referent.
-        RuntimeError 		Raised when an error does not fall under any other category.
-        StopIteration 		Raised by next() function to indicate that there is no further item to be returned by iterator.
-        SyntaxError 		Raised by parser when syntax error is encountered.
-    </code>
-</pre>
+<ul>
+    <li class="l1">Exception&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Cause of Error</li>
+    <li class="l1">AttributeError&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Raised when attribute assignment or reference fails.</li>
+    <li class="l1">FloatingPointError&nbsp;&nbsp;Raised when a floating point operation fails.</li>
+    <li class="l1">GeneratorExit&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Raise when a generator's close() method is called.</li>
+    <li class="l1">ImportError&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Raised when the imported module is not found.</li>
+    <li class="l1">IndexError&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Raised when index of a sequence is out of range.</li>
+    <li class="l1">KeyError&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Raised when a key is not found in a dictionary.</li>
+    <li class="l1">MemoryError&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Raised when an operation runs out of memory.</li>
+    <li class="l1">NameError&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Raised when a variable is not found in local or global scope.</li>
+    <li class="l1">KeyboardInterrupt&nbsp;&nbsp;&nbsp;Raised when the user hits interrupt key (Ctrl+c or delete).</li>
+    <li class="l1">SyntaxError&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Raised by parser when syntax error is encountered.</li>
+
+</ul>
 <h3>59. How user can define exceptions?</h3>
 <p class="p1">By inherating Exception class as a base class.</p>
 <pre><code class="l1" >
